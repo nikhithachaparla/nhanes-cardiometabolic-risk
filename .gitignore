@@ -1,0 +1,16 @@
+# Mac system files
+.DS_Store
+**/.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Raw data files — too large, redistribute from CDC directly
+01_data/raw/
+01_data/processed/*.csv
+01_data/processed/*.png
+
+# Python cache
+__pycache__/
+*.pyc
