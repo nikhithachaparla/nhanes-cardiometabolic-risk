@@ -70,6 +70,24 @@ Nine component files merged on SEQN: DEMO_L, DIQ_L, BPQ_L, GHB_L, BPXO_L, TCHOL_
 ---
 
 ## Project Structure
+
+Capstone_Project/
+
+├── 01_load_merge_v2.ipynb           <- Phase 1: load, merge, clean
+
+├── 02_feature_engineering.ipynb     <- Phase 2: diagnosis gap flags, EDA
+
+├── 03_modeling.ipynb                <- Phase 3: ML, SHAP, calibration
+
+├── 03b_comorbidity_analysis.ipynb   <- Phase 3 ext: comorbidity analysis
+
+├── nhanes_survey_analysis.R         <- Survey-weighted estimation (R)
+
+├── ml_diagnostics.py                <- Bootstrap AUC and calibration
+
+├── 01_data/processed/               <- Outputs and figures
+
+└── README.md
 ---
 
 ## Tools
